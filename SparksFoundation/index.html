@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Oswald&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7531243322.js" crossorigin="anonymous"></script>
+   
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--style-->
+    <link rel ="stylesheet" href="index.css">
+    <title>Sparks Foundation Bank</title>
+</head>
+<body>
+    <div id="container">
+        <!-- header -->
+        <header>
+            
+            
+            <!--nav bar-->
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <!--mobile btn-->
+                    <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa-solid fa-circle-xmark"></i></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- mobile menu button -->
+            <div id="mobile-bar" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i> Menu
+            </div>
+
+        </header>
+        <!--poster-->
+        <div id="poster" class="uni-padding">
+            <div id="aboutBank" style="color: black;"> 
+                <h2 style="justify-content: center; margin-left: 40px; font-size: 35px;">Sparks Foundation Bank</h2>
+                <p style="justify-content: left;">Sparks Bank is a leading private sector bank in India. The Bank’s consolidated total assets stood at Rs. 14.76 trillion at September 30, 2020.  ICICI Bank currently has a network of 5,418 branches and 13,626 ATMs across India.
+                </p>
+            </div>
+            
+            
+        </div>
+        <!-- why us section -->
+        <div id="whysection" class="uni-padding">
+            <h1 class="red-heading">SERVICES</h1>
+            <div class="section33">
+                <img src="/images/paint1.jpg" alt="">
+                <h2>Customer Info</h2>
+                <p>Check out individual and all customer details.
+                </p>
+                
+            </div>
+            <div class="section33">
+                <img src="/images/folder.jpeg" alt="">
+                <h2>Transfer</h2>
+                <p>Transfer Money safely with us.
+                </p>
+                <button class="btn33" onclick="window.location.href = 'Customer.html';">Get Going</button>
+            </div>
+            <div class="section33">
+                <img src="/images/clock.jpeg" alt="">
+                <h2>Transaction History</h2>
+                <p>Check out all past transactions.
+                </p>
+                
+            </div>
+        </div>
+        
+        
+        <!-- footer -->
+        <footer>
+            <div id="imp-link" class="uni-padding">
+                <div class="div33">
+                    <h3>About Us</h3>
+                    <p>The about us page is often a reflection of the purpose and personality of the business and its owners or top employees. Finally, the page can also incorporate contact or locational information. One way to view the about us concept is as a text self-portrait or short autobiography created by a business.</p>
+                </div>
+                <div class="div33" id="footer-menu-container">
+                    <h3>Important Links</h3>
+                    <ul id="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutUs.html">About US</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contactUs.html">Contact US</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="div33">
+                    <h3>Contact Us</h3>
+                    <p> Rishika Gupta<br>
+                        Panchkula,Haryana<br>
+                        India<br>
+                    </p>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>CopyRight &copy; RishikaGupta 2022 2023</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--script-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.8.0-0/firebase.js">
+    </script> -->
+    <!-- <script src="index.js"></script> -->
+    <script>
+        var preloader = document.getElementById("loading");
+        function loader(){
+          preloader.style.display = 'none';
+        }
+      </script>
+  
+      <script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+      <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+  
+      <!-- aos data  -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 700,
+        });
+      </script>
+
+
+
+</body>
+</html>
